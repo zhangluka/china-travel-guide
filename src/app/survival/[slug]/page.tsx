@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getContentSlugs, getContentByPath } from '@/lib/content'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -54,7 +55,7 @@ export default async function SurvivalGuidePage({ params }: Props) {
 
       <article className="prose">
         <h1>{meta.title}</h1>
-        <MDXRemote source={content} />
+        <MDXRemote source={content} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
       </article>
 
       {/* Prev/Next navigation */}
