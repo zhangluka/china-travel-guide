@@ -36,11 +36,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Restructure for GitHub Pages basePath
+      - name: Restructure for GitHub Pages
         run: |
-          mkdir -p _site/china-travel-guide
-          cp -r out/* _site/china-travel-guide/
-          touch _site/china-travel-guide/.nojekyll
+          mkdir -p _site
+          cp -r out/* _site/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
