@@ -841,7 +841,12 @@ img {
 }
 
 @media (max-width: 600px) {
-  .nav-links { gap: 1rem; font-size: 0.82rem; }
+  .nav-links {
+    gap: 0.75rem;
+    font-size: 0.78rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
   .hero { min-height: 70vh; }
   .cities-grid { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
