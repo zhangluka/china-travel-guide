@@ -555,6 +555,31 @@ img {
   margin-bottom: 0.75rem;
 }
 
+.footer-find-me {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.footer-find-me-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.45);
+}
+
+.footer-find-me a {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-find-me a:hover {
+  color: #fff;
+}
+
 .site-footer p {
   font-size: 0.88rem;
   line-height: 1.65;
