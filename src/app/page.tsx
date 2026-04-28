@@ -168,44 +168,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ═══ CITIES COMING SOON ═══ */}
+      {/* ═══ MORE CITIES ═══ */}
       <section className="section">
         <div className="section-center">
-          <div className="section-label">Expanding Soon</div>
+          <div className="section-label">All Cities</div>
           <h2 className="section-title">More Cities</h2>
           <p className="section-subtitle">We&apos;re building detailed guides for these destinations</p>
 
-          <div className="cities-grid">
-            <div className="city-placeholder">
-              <div className="city-name">Shanghai</div>
-              <div className="city-tagline">The Bund, skyscrapers, and old-world charm</div>
-              <span className="coming-soon-badge">Coming Soon</span>
-            </div>
-            <div className="city-placeholder">
-              <div className="city-name">Beijing</div>
-              <div className="city-tagline">Forbidden City, Great Wall, hutong alleys</div>
-              <span className="coming-soon-badge">Coming Soon</span>
-            </div>
-            <div className="city-placeholder">
-              <div className="city-name">Xi&apos;an</div>
-              <div className="city-tagline">Terracotta Warriors and the best street food</div>
-              <span className="coming-soon-badge">Coming Soon</span>
-            </div>
-            <div className="city-placeholder">
-              <div className="city-name">Guilin</div>
-              <div className="city-tagline">Karst mountains and Li River cruises</div>
-              <span className="coming-soon-badge">Coming Soon</span>
-            </div>
-            <div className="city-placeholder">
-              <div className="city-name">Chongqing</div>
-              <div className="city-tagline">Hotpot capital of China, vertical city</div>
-              <span className="coming-soon-badge">Coming Soon</span>
-            </div>
-            <div className="city-placeholder">
-              <div className="city-name">Hangzhou</div>
-              <div className="city-tagline">West Lake and tea plantations</div>
-              <span className="coming-soon-badge">Coming Soon</span>
-            </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <Link href="/city/" className="btn btn-filled" style={{ marginTop: '1.5rem' }}>
+              View All City Guides →
+            </Link>
           </div>
         </div>
       </section>

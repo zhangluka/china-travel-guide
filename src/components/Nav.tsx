@@ -7,8 +7,8 @@ export default function Nav() {
       <ul className="nav-links">
         <li><Link href="/survival/">Survival Guide</Link></li>
         <li><Link href="/city/chengdu/">Chengdu</Link></li>
-        <li><span className="soon">Shanghai</span></li>
-        <li><span className="soon">Beijing</span></li>
+        <li><Link href="/city/shanghai/">Shanghai</Link></li>
+        <li><Link href="/city/beijing/">Beijing</Link></li>
       </ul>
     </nav>
   )

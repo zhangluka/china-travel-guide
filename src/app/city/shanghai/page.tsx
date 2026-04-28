@@ -3,12 +3,12 @@ import type { Metadata } from 'next'
 import { getCityContent } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Chengdu Travel Guide — Pandas, Food & Everything You Need',
-  description: 'Complete Chengdu travel guide for foreign tourists. Giant pandas, Sichuan hotpot, hidden restaurants, day trips, and practical tips from a local.',
+  title: 'Shanghai Travel Guide — The Bund, Food & Urban Adventures',
+  description: 'Complete Shanghai travel guide for foreign tourists. The Bund, Oriental Pearl Tower, French Concession, food, and practical tips from a local.',
 }
 
-export default function ChengduPage() {
-  const { overview, attractions, food, transport } = getCityContent('chengdu')
+export default function ShanghaiPage() {
+  const { overview, attractions, food, transport } = getCityContent('shanghai')
 
   return (
     <div>
@@ -18,13 +18,14 @@ export default function ChengduPage() {
           <nav className="breadcrumb">
             <Link href="/">Home</Link>
             <span className="breadcrumb-sep">/</span>
-            <span style={{ color: 'var(--text)' }}>Chengdu</span>
+            <Link href="/city/">Cities</Link>
+            <span className="breadcrumb-sep">/</span>
+            <span style={{ color: 'var(--text)' }}>Shanghai</span>
           </nav>
           <div className="section-label">City Guide</div>
-          <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', marginBottom: '0.5rem' }}>🐼 Chengdu</h1>
-          <p className="section-subtitle" style={{ marginBottom: '0' }}>
-            The most relaxed major city in China. World-class food, adorable pandas,
-            and a pace of life that makes you wonder why you live anywhere else.
+          <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', marginBottom: '0.5rem' }}>🌃 Shanghai</h1>
+          <p className="section-subtitle">
+            Where old and new China collide in the most international city on earth.
           </p>
         </div>
       </section>
@@ -35,7 +36,7 @@ export default function ChengduPage() {
           <div className="quick-facts">
             <div className="fact">
               <span className="fact-label">Population</span>
-              <span className="fact-value">21M</span>
+              <span className="fact-value">24M</span>
             </div>
             <div className="fact">
               <span className="fact-label">Best Time</span>
@@ -43,11 +44,11 @@ export default function ChengduPage() {
             </div>
             <div className="fact">
               <span className="fact-label">Daily Budget</span>
-              <span className="fact-value">¥300–600</span>
+              <span className="fact-value">¥500–1,000</span>
             </div>
             <div className="fact">
               <span className="fact-label">English Level</span>
-              <span className="fact-value">Low</span>
+              <span className="fact-value">High</span>
             </div>
           </div>
 
@@ -59,7 +60,7 @@ export default function ChengduPage() {
                 {transport.map((item) => (
                   <Link
                     key={item.slug}
-                    href={`/city/chengdu/${item.slug}/`}
+                    href={`/city/shanghai/${item.slug}/`}
                     className="card-link"
                   >
                     <h3>{item.meta.title}</h3>
@@ -78,7 +79,7 @@ export default function ChengduPage() {
                 {attractions.map((item) => (
                   <Link
                     key={item.slug}
-                    href={`/city/chengdu/${item.slug}/`}
+                    href={`/city/shanghai/${item.slug}/`}
                     className="card-link"
                   >
                     <h3>{item.meta.title}</h3>
@@ -94,13 +95,13 @@ export default function ChengduPage() {
             <div style={{ marginBottom: '3rem' }}>
               <h2 className="section-title" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Food &amp; Drink</h2>
               <p style={{ color: 'var(--muted)', marginBottom: '1.25rem' }}>
-                Chengdu is a <strong>UNESCO City of Gastronomy</strong>. The food here alone is worth the trip.
+                Shanghai&apos;s food scene is a collision of <strong>Shanghainese classics</strong>, <strong>international cuisines</strong>, and <strong>boundary-pushing fine dining</strong>.
               </p>
               <div className="list-grid">
                 {food.map((item) => (
                   <Link
                     key={item.slug}
-                    href={`/city/chengdu/${item.slug}/`}
+                    href={`/city/shanghai/${item.slug}/`}
                     className="card-link"
                   >
                     <h3>{item.meta.title}</h3>
@@ -115,11 +116,8 @@ export default function ChengduPage() {
           <div className="callout-box">
             <h2>How Many Days?</h2>
             <p>
-              We recommend <strong>3–5 days</strong> for Chengdu city, plus <strong>2–3 days</strong> if you want to visit Jiuzhaigou or Western Sichuan.
+              We recommend <strong>3–5 days</strong> for Shanghai city. The city rewards slow exploration — don&apos;t rush it.
             </p>
-            <Link href="/city/chengdu/itinerary-3-days/" className="btn btn-filled">
-              See Our 3-Day Itinerary
-            </Link>
           </div>
         </div>
       </section>
