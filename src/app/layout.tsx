@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     siteName: 'ChinaTravel Guide',
   },
+  icons: {
+    icon: '/icon.svg',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
