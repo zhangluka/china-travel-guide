@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { getContentByPath, getContentSlugs } from '@/lib/content'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
+import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -41,6 +42,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: data.meta.title as string,
     description: data.meta.description as string,
+    alternates: {
+      canonical: `https://chinabound.online/city/beijing/${slug}/`,
+    },
   }
 }
 
@@ -50,9 +54,25 @@ export default async function CityContentPage({ params }: Props) {
   if (!data) notFound()
 
   const { meta, content, category } = data
+  const pageUrl = `https://chinabound.online/city/beijing/${slug}/`
 
   return (
     <div className="page-container-narrow">
+      <ArticleJsonLd
+        title={meta.title as string}
+        description={meta.description as string}
+        url={pageUrl}
+        datePublished={(meta.date as string) || '2026-01-01'}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: 'https://chinabound.online/' },
+          { name: 'Cities', url: 'https://chinabound.online/city/' },
+          { name: 'Beijing', url: 'https://chinabound.online/city/beijing/' },
+          { name: meta.title as string, url: pageUrl },
+        ]}
+      />
+
       <nav className="breadcrumb">
         <Link href="/">Home</Link>
         <span className="breadcrumb-sep">/</span>

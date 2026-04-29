@@ -68,7 +68,7 @@ export default function HomePage() {
         <div className="section-center">
           <div className="section-label">Essential Reading</div>
           <h2 className="section-title">Read Before You Fly</h2>
-          <p className="section-subtitle">5 essential guides that will save you hours of frustration</p>
+          <p className="section-subtitle">6 essential guides that will save you hours of frustration</p>
 
           <div className="guides-grid">
             <Link href="/survival/alipay-setup/" className="guide-card">
@@ -81,7 +81,7 @@ export default function HomePage() {
             <Link href="/survival/vpn-guide/" className="guide-card">
               <div className="guide-number">02</div>
               <h3>VPN Guide</h3>
-              <p>Which VPNs actually work in China in 2025. Download and configure before departure.</p>
+              <p>Which VPNs actually work in China in 2026. Download and configure before departure.</p>
               <span className="guide-badge badge-essential">Essential</span>
             </Link>
 

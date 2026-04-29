@@ -1,9 +1,10 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getContentByPath, getContentSlugs, getAllContentInDir } from '@/lib/content'
+import { getContentByPath, getContentSlugs } from '@/lib/content'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
+import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -39,6 +40,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: data.meta.title as string,
     description: data.meta.description as string,
+    alternates: {
+      canonical: `https://chinabound.online/city/chengdu/${slug}/`,
+    },
   }
 }
 
@@ -49,9 +53,24 @@ export default async function ChengduContentPage({ params }: Props) {
 
   const { meta, content, category } = data
   const categoryLabel = category === 'attractions' ? 'Attractions' : category === 'food' ? 'Food & Drink' : 'Getting Around'
+  const pageUrl = `https://chinabound.online/city/chengdu/${slug}/`
 
   return (
     <div className="page-container-narrow">
+      <ArticleJsonLd
+        title={meta.title as string}
+        description={meta.description as string}
+        url={pageUrl}
+        datePublished={(meta.date as string) || '2026-01-01'}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: 'https://chinabound.online/' },
+          { name: 'Chengdu', url: 'https://chinabound.online/city/chengdu/' },
+          { name: meta.title as string, url: pageUrl },
+        ]}
+      />
+
       <nav className="breadcrumb">
         <Link href="/">Home</Link>
         <span className="breadcrumb-sep">/</span>
