@@ -4,11 +4,14 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">ChinaTravel Guide</div>
         <p>Practical travel guides for foreign tourists visiting China.</p>
-        <p className="footer-note">Updated regularly. Not affiliated with any travel agency.</p>
-        <div className="footer-contact">
-          <span className="footer-contact-label">Questions?</span>
-          <a href="mailto:bob8ynwl@gmail.com" className="footer-contact-link">Reach me at: bob8ynwl@gmail.com</a>
+        <div className="footer-links">
+          <a href="https://x.com/grainrain_young" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+          <span className="footer-sep">·</span>
+          <a href="mailto:bob8ynwl@gmail.com">Contact</a>
+          <span className="footer-sep">·</span>
+          <a href="/about/">About</a>
         </div>
+        <p className="footer-note">Updated regularly. Not affiliated with any travel agency.</p>
       </div>
     </footer>
   )

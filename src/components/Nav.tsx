@@ -9,6 +9,7 @@ export default function Nav() {
         <li><Link href="/city/chengdu/">Chengdu</Link></li>
         <li><Link href="/city/shanghai/">Shanghai</Link></li>
         <li><Link href="/city/beijing/">Beijing</Link></li>
+        <li><Link href="/about/">About</Link></li>
       </ul>
     </nav>
   )
