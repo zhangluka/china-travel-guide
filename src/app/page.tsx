@@ -106,10 +106,10 @@ export default function HomePage() {
               <span className="guide-badge badge-recommended">Recommended</span>
             </Link>
 
-            <Link href="/survival/144-hour-visa-free-transit/" className="guide-card">
+            <Link href="/survival/240-hour-visa-free-transit/" className="guide-card">
               <div className="guide-number">06</div>
-              <h3>144-Hour Visa-Free</h3>
-              <p>How to visit China without a visa. Eligible countries, documents, and step-by-step process.</p>
+              <h3>240-Hour Visa-Free</h3>
+              <p>How to visit China without a visa. 55 eligible countries, 10-day stay, cross-province travel allowed.</p>
               <span className="guide-badge badge-essential">Essential</span>
             </Link>
           </div>
