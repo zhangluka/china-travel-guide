@@ -13,6 +13,7 @@ const guideMeta: Record<string, { number: string; urgency: string; badgeClass: s
   'must-have-apps': { number: '03', urgency: 'Essential', badgeClass: 'badge-essential' },
   'sim-card-vs-esim': { number: '04', urgency: 'Recommended', badgeClass: 'badge-recommended' },
   'maps-navigation': { number: '05', urgency: 'Recommended', badgeClass: 'badge-recommended' },
+  '144-hour-visa-free-transit': { number: '06', urgency: 'Essential', badgeClass: 'badge-essential' },
 }
 
 export default function SurvivalPage() {

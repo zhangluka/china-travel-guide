@@ -105,6 +105,13 @@ export default function HomePage() {
               <p>Amap, Baidu Maps, and how to get around without Google. Includes saved location trick.</p>
               <span className="guide-badge badge-recommended">Recommended</span>
             </Link>
+
+            <Link href="/survival/144-hour-visa-free-transit/" className="guide-card">
+              <div className="guide-number">06</div>
+              <h3>144-Hour Visa-Free</h3>
+              <p>How to visit China without a visa. Eligible countries, documents, and step-by-step process.</p>
+              <span className="guide-badge badge-essential">Essential</span>
+            </Link>
           </div>
         </div>
       </section>
