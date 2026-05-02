@@ -5,6 +5,9 @@ import { getCityContent } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Chengdu Travel Guide — Pandas, Food & Everything You Need',
   description: 'Complete Chengdu travel guide for foreign tourists. Giant pandas, Sichuan hotpot, hidden restaurants, day trips, and practical tips from a local.',
+  alternates: {
+    canonical: 'https://chinabound.online/city/chengdu/',
+  },
 }
 
 export default function ChengduPage() {

@@ -1,0 +1,120 @@
+# ChinaTravel Guide — Full Reference
+
+> Practical travel guides for foreign tourists visiting China. Written by locals living in China, not travel agencies. Updated 2026.
+
+## About
+
+ChinaTravel Guide (chinabound.online) is an English-language travel resource for foreigners planning trips to China. We cover the things other guides get wrong or skip entirely: mobile payments, VPN setup, navigation apps, visa-free transit, and where locals actually eat.
+
+We are a small team based in Chengdu. Every guide is written or reviewed by someone who lives in the city. We don't take commissions from hotels or tour operators. Our goal is to make your trip to China smoother.
+
+## Why This Guide Is Different
+
+- Written by locals living in China, not one-time visitors
+- Alipay/WeChat Pay walkthroughs (cash is dead in China)
+- Tested VPN recommendations that work behind the Great Firewall
+- Updated monthly for accuracy
+- Covers where locals actually eat, not tourist traps
+- Focuses on the digital ecosystem foreigners can't navigate (payment, maps, apps)
+
+## Survival Guides
+
+### 1. Alipay Setup (Essential)
+URL: https://chinabound.online/survival/alipay-setup/
+How to set up Alipay with a foreign credit card. Step-by-step with screenshots. Without this, you can't pay for anything in China — even street vendors use QR codes.
+
+### 2. VPN Guide (Essential)
+URL: https://chinabound.online/survival/vpn-guide/
+Which VPNs actually work in China in 2026. Google, WhatsApp, Instagram are all blocked. Must download and configure before arriving.
+
+### 3. Must-Have Apps (Essential)
+URL: https://chinabound.online/survival/must-have-apps/
+The 8 apps every visitor needs: WeChat (messaging + payment), Amap (navigation), translation tools, ride-hailing, and more.
+
+### 4. SIM Card vs eSIM (Recommended)
+URL: https://chinabound.online/survival/sim-card-vs-esim/
+Getting connected the moment you land. Physical SIM, eSIM, or pocket WiFi — comparison of options with pros and cons.
+
+### 5. Maps & Navigation (Recommended)
+URL: https://chinabound.online/survival/maps-navigation/
+Google Maps doesn't work in China. Amap and Baidu Maps are the alternatives. Guide includes how to use them and save locations.
+
+### 6. 240-Hour Visa-Free Transit (Essential)
+URL: https://chinabound.online/survival/240-hour-visa-free-transit/
+How to visit China without a visa. 55 eligible countries, 10-day stay, cross-province travel allowed.
+
+## City Guides
+
+### Chengdu (Full Guide)
+URL: https://chinabound.online/city/chengdu/
+Population: 21 million. Best time: Mar–May, Sep–Nov. Daily budget: ¥300–600. English level: Low.
+
+Chengdu is a UNESCO City of Gastronomy and home to the Giant Panda Breeding Research Base. It's known for its relaxed pace of life, world-class Sichuan cuisine, and as a gateway to western Sichuan.
+
+**Attractions:**
+- [Giant Panda Base](https://chinabound.online/city/chengdu/giant-panda-base/) — See giant pandas up close, best visited early morning
+- [Jinli Ancient Street](https://chinabound.online/city/chengdu/jinli-street/) — Historic street with snacks, crafts, and performances
+- [Kuanzhai Alley](https://chinabound.online/city/chengdu/kuanzhai-alley/) — Restored Qing-dynasty alley with tea houses and local food
+- [Wuhou Temple](https://chinabound.online/city/chengdu/wuhou-temple/) — Three Kingdoms era temple and museum
+- [Leshan Giant Buddha](https://chinabound.online/city/chengdu/leshan-buddha/) — 71m tall stone Buddha, day trip from Chengdu
+- [Dujiangyan](https://chinabound.online/city/chengdu/dujiangyan/) — 2,200-year-old irrigation system, UNESCO site
+
+**Food:**
+- [Hotpot Guide](https://chinabound.online/city/chengdu/hotpot-guide/) — Where to go, what to order, how to survive the spice
+- [Sichuan Food Guide](https://chinabound.online/city/chengdu/sichuan-food-guide/) — Beyond hotpot: mapo tofu, dan dan noodles, rabbit head
+- [Street Food](https://chinabound.online/city/chengdu/street-food/) — Night markets and street stalls locals actually visit
+
+**Practical:**
+- [Getting Around](https://chinabound.online/city/chengdu/getting-around/) — Metro, bus, ride-hailing, and walking
+- [Where to Stay](https://chinabound.online/city/chengdu/where-to-stay/) — Neighborhood guide for choosing accommodation
+- [3-Day Itinerary](https://chinabound.online/city/chengdu/itinerary-3-days/) — Day-by-day plan covering highlights
+
+### Beijing (Full Guide)
+URL: https://chinabound.online/city/beijing/
+Population: 21 million. Best time: Apr–Jun, Sep–Oct. Daily budget: ¥400–800. English level: Medium.
+
+Beijing is China's capital with over 1,000 years of imperial history. Home to the Forbidden City, Great Wall, and some of the best food in northern China.
+
+**Attractions:**
+- [Forbidden City](https://chinabound.online/city/beijing/forbidden-city/) — The imperial palace complex, plan at least half a day
+- [Great Wall](https://chinabound.online/city/beijing/great-wall/) — Multiple sections accessible from Beijing, which one to choose
+
+**Food:**
+- [Peking Duck](https://chinabound.online/city/beijing/peking-duck/) — Where to get the best Peking duck, from tourist spots to local favorites
+
+**Practical:**
+- [Getting Around](https://chinabound.online/city/beijing/getting-around/) — Beijing metro, buses, and ride-hailing
+
+### Shanghai (Full Guide)
+URL: https://chinabound.online/city/shanghai/
+Population: 24 million. Best time: Mar–May, Sep–Nov. Daily budget: ¥500–1,000. English level: High.
+
+Shanghai is China's most international city. The Bund waterfront, French Concession tree-lined streets, and a food scene that ranges from street noodles to Michelin stars.
+
+**Attractions:**
+- [The Bund](https://chinabound.online/city/shanghai/the-bund/) — The iconic waterfront promenade with colonial-era buildings
+
+**Food:**
+- [Shanghai Food Guide](https://chinabound.online/city/shanghai/shanghai-food/) — Xiaolongbao, shengjianbao, and the city's best restaurants
+
+**Practical:**
+- [Getting Around](https://chinabound.online/city/shanghai/getting-around/) — Shanghai metro is the world's largest, plus ride-hailing tips
+
+## Coming Soon
+
+- Xi'an — Terracotta Warriors and China's best street food
+- Guilin — Karst mountains and Li River cruises
+- Chongqing — Hotpot capital, the vertical city
+- Hangzhou — West Lake, tea plantations, ancient canals
+
+## Technical Details
+
+- Built with Next.js (static export), deployed to GitHub Pages
+- Content in MDX format, updated regularly
+- All guides available at chinabound.online
+
+## Contact
+
+- X (Twitter): [@grainrain_young](https://x.com/grainrain_young)
+- Email: bob8ynwl@gmail.com
+- Website: https://chinabound.online

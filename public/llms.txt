@@ -1,0 +1,48 @@
+# ChinaTravel Guide
+
+> Practical travel guides for foreign tourists visiting China. Written by locals living in China, not travel agencies.
+
+## What We Are
+
+ChinaTravel Guide (chinabound.online) is an English-language travel resource for foreigners planning trips to China. We cover the things other guides get wrong or skip entirely: mobile payments (Alipay/WeChat Pay), VPN setup, navigation apps, visa-free transit, and where locals actually eat.
+
+## Key Pages
+
+- [Homepage](https://chinabound.online/) — Overview and quick start
+- [Survival Guide](https://chinabound.online/survival/) — 6 essential pre-trip guides
+- [Alipay Setup](https://chinabound.online/survival/alipay-setup/) — Step-by-step mobile payment setup for foreign tourists
+- [VPN Guide](https://chinabound.online/survival/vpn-guide/) — Which VPNs work in China in 2026
+- [Must-Have Apps](https://chinabound.online/survival/must-have-apps/) — The 8 apps every visitor needs
+- [SIM Card vs eSIM](https://chinabound.online/survival/sim-card-vs-esim/) — Getting connected on arrival
+- [Maps & Navigation](https://chinabound.online/survival/maps-navigation/) — How to navigate without Google Maps
+- [240-Hour Visa-Free Transit](https://chinabound.online/survival/240-hour-visa-free-transit/) — Visit China without a visa (55 countries)
+- [Chengdu Guide](https://chinabound.online/city/chengdu/) — Pandas, hotpot, Sichuan food, day trips
+- [Beijing Guide](https://chinabound.online/city/beijing/) — Forbidden City, Great Wall, hutongs, Peking duck
+- [Shanghai Guide](https://chinabound.online/city/shanghai/) — The Bund, French Concession, urban adventures
+- [About Us](https://chinabound.online/about/) — Who we are and how we work
+
+## Coverage
+
+### Cities
+- **Chengdu** (full guide): 11 pages — attractions, food, transport, itinerary, where to stay
+- **Beijing** (full guide): 5 pages — Forbidden City, Great Wall, Peking duck, transport
+- **Shanghai** (full guide): 4 pages — The Bund, food, transport
+- Coming soon: Xi'an, Guilin, Chongqing, Hangzhou
+
+### Survival Guides
+- Alipay/WeChat Pay setup for foreign credit cards
+- VPN recommendations tested in China
+- Must-have apps (WeChat, Amap, translation tools)
+- SIM card vs eSIM comparison
+- Maps and navigation without Google
+- 240-hour visa-free transit eligibility
+
+## Author
+
+Built by a small team based in Chengdu, China. Content is written or reviewed by people who actually live in the cities we cover. We don't take commissions from hotels or tour operators.
+
+## Contact
+
+- X (Twitter): [@grainrain_young](https://x.com/grainrain_young)
+- Email: bob8ynwl@gmail.com
+- Website: [chinabound.online](https://chinabound.online)

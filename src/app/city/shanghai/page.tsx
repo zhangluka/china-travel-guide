@@ -5,6 +5,9 @@ import { getCityContent } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Shanghai Travel Guide — The Bund, Food & Urban Adventures',
   description: 'Complete Shanghai travel guide for foreign tourists. The Bund, Oriental Pearl Tower, French Concession, food, and practical tips from a local.',
+  alternates: {
+    canonical: 'https://chinabound.online/city/shanghai/',
+  },
 }
 
 export default function ShanghaiPage() {

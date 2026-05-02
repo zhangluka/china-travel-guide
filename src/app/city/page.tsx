@@ -4,6 +4,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'City Guides — ChinaTravel',
   description: 'Detailed city guides for traveling in China. Chengdu, Shanghai, Beijing, and more — written by locals who actually live there.',
+  alternates: {
+    canonical: 'https://chinabound.online/city/',
+  },
 }
 
 const cities = [

@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
     <loc>https://chinabound.online/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://chinabound.online/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- City listing -->
+  <url>
+    <loc>https://chinabound.online/city/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ===== SURVIVAL GUIDES ===== -->
   <url>
     <loc>https://chinabound.online/survival/</loc>
     <changefreq>monthly</changefreq>
@@ -36,12 +53,29 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://chinabound.online/survival/240-hour-visa-free-transit/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ===== CHENGDU ===== -->
+  <url>
     <loc>https://chinabound.online/city/chengdu/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://chinabound.online/city/chengdu/dujiangyan/</loc>
+    <loc>https://chinabound.online/city/chengdu/getting-around/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chinabound.online/city/chengdu/where-to-stay/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chinabound.online/city/chengdu/itinerary-3-days/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -61,7 +95,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://chinabound.online/city/chengdu/wuhou-temple/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://chinabound.online/city/chengdu/leshan-buddha/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chinabound.online/city/chengdu/dujiangyan/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -80,34 +124,53 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- ===== BEIJING ===== -->
   <url>
-    <loc>https://chinabound.online/city/chengdu/wuhou-temple/</loc>
+    <loc>https://chinabound.online/city/beijing/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chinabound.online/city/beijing/getting-around/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chinabound.online/city/chengdu/where-to-stay/</loc>
+    <loc>https://chinabound.online/city/beijing/forbidden-city/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chinabound.online/city/chengdu/getting-around/</loc>
+    <loc>https://chinabound.online/city/beijing/great-wall/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chinabound.online/city/chengdu/itinerary-3-days/</loc>
+    <loc>https://chinabound.online/city/beijing/peking-duck/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ===== SHANGHAI ===== -->
+  <url>
+    <loc>https://chinabound.online/city/shanghai/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://chinabound.online/city/shanghai/getting-around/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chinabound.online/survival/240-hour-visa-free-transit/</loc>
+    <loc>https://chinabound.online/city/shanghai/the-bund/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://chinabound.online/about/</loc>
+    <loc>https://chinabound.online/city/shanghai/shanghai-food/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>

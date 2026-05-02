@@ -5,6 +5,9 @@ import { getCityContent } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Beijing Travel Guide — Forbidden City, Great Wall & Imperial History',
   description: 'Complete Beijing travel guide for foreign tourists. Forbidden City, Great Wall, hutongs, Peking duck, and practical tips from a local.',
+  alternates: {
+    canonical: 'https://chinabound.online/city/beijing/',
+  },
 }
 
 export default function BeijingPage() {

@@ -5,6 +5,9 @@ import { getSurvivalGuides } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Survival Guide — What You Need Before Visiting China',
   description: 'Essential guides for foreign tourists: payment setup, VPN, apps, SIM cards, and navigation in China.',
+  alternates: {
+    canonical: 'https://chinabound.online/survival/',
+  },
 }
 
 const guideMeta: Record<string, { number: string; urgency: string; badgeClass: string }> = {

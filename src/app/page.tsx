@@ -4,6 +4,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'ChinaTravel — Your China Trip, Decoded',
   description: 'Practical guides written by locals. Not travel agencies. Payment, VPN, navigation, food, and city guides that actually work.',
+  alternates: {
+    canonical: 'https://chinabound.online/',
+  },
 }
 
 export default function HomePage() {

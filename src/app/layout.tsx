@@ -4,16 +4,33 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://chinabound.online'),
   title: {
     default: 'ChinaTravel — Your China Trip, Decoded',
     template: '%s | ChinaTravel',
   },
   description: 'Practical travel guides for foreign tourists visiting China. Survival tips, city guides, food recommendations, and itinerary planning. Written by locals.',
-  keywords: ['China travel', 'China guide', 'visit China', 'Chengdu travel', 'China tips', 'China for foreigners'],
+  keywords: ['China travel', 'China guide', 'visit China', 'Chengdu travel', 'Beijing travel', 'Shanghai travel', 'China tips', 'China for foreigners', 'China survival guide'],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     siteName: 'ChinaTravel Guide',
+    url: 'https://chinabound.online',
+    title: 'ChinaTravel — Your China Trip, Decoded',
+    description: 'Practical travel guides for foreign tourists visiting China. Written by locals.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@grainrain_young',
+    creator: '@grainrain_young',
+    title: 'ChinaTravel — Your China Trip, Decoded',
+    description: 'Practical travel guides for foreign tourists visiting China. Written by locals.',
+  },
+  alternates: {
+    canonical: 'https://chinabound.online',
+    types: {
+      'text/plain': 'https://chinabound.online/llms.txt',
+    },
   },
   icons: {
     icon: '/icon.svg',
