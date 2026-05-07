@@ -2,8 +2,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'ChinaTravel — Your China Trip, Decoded',
-  description: 'Practical guides written by locals. Not travel agencies. Payment, VPN, navigation, food, and city guides that actually work.',
+  title: 'China Travel Guide 2026: Practical Tips from Locals',
+  description: 'China travel guides written by locals — Alipay setup, VPN, visa-free entry, city guides for Beijing, Chengdu, Shanghai. Everything you need before your trip.',
   alternates: {
     canonical: 'https://chinabound.online/',
   },
