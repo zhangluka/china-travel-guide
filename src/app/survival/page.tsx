@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import { getSurvivalGuides } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Survival Guide — What You Need Before Visiting China',
-  description: 'Essential guides for foreign tourists: payment setup, VPN, apps, SIM cards, and navigation in China.',
+  title: 'China Travel Survival Guide 2026: Read Before You Fly',
+  description: 'Essential China travel guides for foreign tourists — Alipay setup, VPN, safety tips, best time to visit, SIM cards, and 30 must-know travel tips.',
   alternates: {
     canonical: 'https://chinabound.online/survival/',
   },
@@ -17,6 +17,9 @@ const guideMeta: Record<string, { number: string; urgency: string; badgeClass: s
   'sim-card-vs-esim': { number: '04', urgency: 'Recommended', badgeClass: 'badge-recommended' },
   'maps-navigation': { number: '05', urgency: 'Recommended', badgeClass: 'badge-recommended' },
   '240-hour-visa-free-transit': { number: '06', urgency: 'Essential', badgeClass: 'badge-essential' },
+  'is-it-safe-to-travel-to-china': { number: '07', urgency: 'Popular', badgeClass: 'badge-recommended' },
+  'best-time-to-visit-china': { number: '08', urgency: 'Planning', badgeClass: 'badge-useful' },
+  'china-travel-tips': { number: '09', urgency: 'Must-Read', badgeClass: 'badge-recommended' },
 }
 
 export default function SurvivalPage() {

@@ -115,6 +115,27 @@ export default function HomePage() {
               <p>How to visit China without a visa. 55 eligible countries, 10-day stay, cross-province travel allowed.</p>
               <span className="guide-badge badge-essential">Essential</span>
             </Link>
+
+            <Link href="/survival/is-it-safe-to-travel-to-china/" className="guide-card">
+              <div className="guide-number">07</div>
+              <h3>Is China Safe?</h3>
+              <p>Honest answer about safety for foreign tourists — crime, scams, health, and what the advisories really mean.</p>
+              <span className="guide-badge badge-recommended">Popular</span>
+            </Link>
+
+            <Link href="/survival/best-time-to-visit-china/" className="guide-card">
+              <div className="guide-number">08</div>
+              <h3>Best Time to Visit</h3>
+              <p>Month-by-month breakdown of weather, crowds, and prices for every major Chinese city.</p>
+              <span className="guide-badge badge-useful">Planning</span>
+            </Link>
+
+            <Link href="/survival/china-travel-tips/" className="guide-card">
+              <div className="guide-number">09</div>
+              <h3>30 Travel Tips</h3>
+              <p>30 things I wish I knew before going to China. Payment, food, transport, and culture tips from locals.</p>
+              <span className="guide-badge badge-recommended">Must-Read</span>
+            </Link>
           </div>
         </div>
       </section>
