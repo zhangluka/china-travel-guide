@@ -59,3 +59,11 @@ export function getSurvivalGuides() {
 export function getItineraries() {
   return getAllContentInDir('itineraries')
 }
+
+export function getHiddenGuides() {
+  return getAllContentInDir('hidden')
+}
+
+export function getCompareGuides() {
+  return getAllContentInDir('compare')
+}
