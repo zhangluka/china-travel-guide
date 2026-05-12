@@ -53,9 +53,9 @@ const cities = [
   {
     slug: 'chongqing',
     name: 'Chongqing',
-    emoji: '🔥',
-    tagline: 'Hotpot capital of China, the vertical city',
-    available: false,
+    emoji: '🏙️',
+    tagline: 'The 8D cyberpunk city, hotpot capital, and Yangtze River views',
+    available: true,
     facts: { population: '32M', bestTime: 'Mar – May, Sep – Nov', dailyBudget: '¥250–500' },
   },
   {
