@@ -25,6 +25,8 @@ const guideMeta: Record<string, { number: string; urgency: string; badgeClass: s
   'china-budget': { number: '12', urgency: 'Planning', badgeClass: 'badge-useful' },
   'chinese-phrases': { number: '13', urgency: 'Useful', badgeClass: 'badge-useful' },
   'chinese-food-vocabulary': { number: '14', urgency: 'Useful', badgeClass: 'badge-useful' },
+  'china-digital-life': { number: '15', urgency: 'Useful', badgeClass: 'badge-useful' },
+  'travel-insurance': { number: '16', urgency: 'Recommended', badgeClass: 'badge-recommended' },
 }
 
 export default function SurvivalPage() {

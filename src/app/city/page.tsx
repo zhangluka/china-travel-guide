@@ -46,8 +46,8 @@ const cities = [
     slug: 'guilin',
     name: 'Guilin',
     emoji: '⛰️',
-    tagline: 'Karst mountains and Li River cruises',
-    available: false,
+    tagline: 'Karst mountains, Li River cruise, and Yangshuo cycling paradise',
+    available: true,
     facts: { population: '5M', bestTime: 'Apr – Oct', dailyBudget: '¥200–400' },
   },
   {
