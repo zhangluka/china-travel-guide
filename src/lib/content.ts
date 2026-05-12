@@ -67,3 +67,7 @@ export function getHiddenGuides() {
 export function getCompareGuides() {
   return getAllContentInDir('compare')
 }
+
+export function getNewsArticles() {
+  return getAllContentInDir('news')
+}
