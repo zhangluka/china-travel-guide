@@ -20,6 +20,11 @@ const guideMeta: Record<string, { number: string; urgency: string; badgeClass: s
   'is-it-safe-to-travel-to-china': { number: '07', urgency: 'Popular', badgeClass: 'badge-recommended' },
   'best-time-to-visit-china': { number: '08', urgency: 'Planning', badgeClass: 'badge-useful' },
   'china-travel-tips': { number: '09', urgency: 'Must-Read', badgeClass: 'badge-recommended' },
+  'wechat-setup': { number: '10', urgency: 'Essential', badgeClass: 'badge-essential' },
+  'china-train-guide': { number: '11', urgency: 'Recommended', badgeClass: 'badge-recommended' },
+  'china-budget': { number: '12', urgency: 'Planning', badgeClass: 'badge-useful' },
+  'chinese-phrases': { number: '13', urgency: 'Useful', badgeClass: 'badge-useful' },
+  'chinese-food-vocabulary': { number: '14', urgency: 'Useful', badgeClass: 'badge-useful' },
 }
 
 export default function SurvivalPage() {
