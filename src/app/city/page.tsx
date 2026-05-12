@@ -66,6 +66,14 @@ const cities = [
     available: false,
     facts: { population: '12M', bestTime: 'Mar – May, Sep – Nov', dailyBudget: '¥300–600' },
   },
+  {
+    slug: 'zhangjiajie',
+    name: 'Zhangjiajie',
+    emoji: '🏔️',
+    tagline: 'Avatar Mountains, glass bridge, and Tianmen Mountain',
+    available: true,
+    facts: { population: '1.5M', bestTime: 'Apr – Jun, Sep – Nov', dailyBudget: '¥300–600' },
+  },
 ]
 
 export default function CitiesPage() {
