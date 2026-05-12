@@ -55,3 +55,7 @@ export function getCityContent(city: string) {
 export function getSurvivalGuides() {
   return getAllContentInDir('survival')
 }
+
+export function getItineraries() {
+  return getAllContentInDir('itineraries')
+}

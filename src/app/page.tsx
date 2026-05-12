@@ -136,6 +136,20 @@ export default function HomePage() {
               <p>30 things I wish I knew before going to China. Payment, food, transport, and culture tips from locals.</p>
               <span className="guide-badge badge-recommended">Must-Read</span>
             </Link>
+
+            <Link href="/itineraries/china-first-time/" className="guide-card">
+              <div className="guide-number">10</div>
+              <h3>10-Day China Itinerary</h3>
+              <p>The perfect first trip to China. Beijing, Xi&apos;an, and Chengdu — cities, food, and pandas.</p>
+              <span className="guide-badge badge-useful">Planning</span>
+            </Link>
+
+            <Link href="/itineraries/china-2-weeks/" className="guide-card">
+              <div className="guide-number">11</div>
+              <h3>2-Week China Itinerary</h3>
+              <p>The ultimate route: Beijing, Xi&apos;an, Chengdu, Chongqing, and Shanghai. All connected by train.</p>
+              <span className="guide-badge badge-useful">Planning</span>
+            </Link>
           </div>
         </div>
       </section>
