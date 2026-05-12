@@ -38,8 +38,8 @@ const cities = [
     slug: 'xian',
     name: "Xi'an",
     emoji: '⚔️',
-    tagline: "Terracotta Warriors and China's best street food",
-    available: false,
+    tagline: "Terracotta Warriors, the best street food in China, and a 600-year-old city wall",
+    available: true,
     facts: { population: '13M', bestTime: 'Mar – May, Sep – Nov', dailyBudget: '¥250–500' },
   },
   {
